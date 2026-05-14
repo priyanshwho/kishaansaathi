@@ -6,6 +6,7 @@ const StoriesSection = () => {
   const { content } = useLanguage()
 
   return (
+    
     <section className="stories">
       <div className="stories__inner">
         <h2 className="stories__heading">{content.stories.heading}</h2>
